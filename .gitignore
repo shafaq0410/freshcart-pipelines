@@ -3,3 +3,5 @@
 *.csv
 mage.log
 __pycache__/
+.venv/
+iris_project/.ssh_tunnel/

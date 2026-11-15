@@ -4,6 +4,7 @@ type: python
 blocks:
 - {uuid: load_iris,      name: load_iris,      type: data_loader,   language: python, upstream_blocks: [],              downstream_blocks: [prepare_data]}
 - {uuid: prepare_data,   name: prepare_data,   type: transformer,   language: python, upstream_blocks: [load_iris],     downstream_blocks: [train_model]}
-- {uuid: train_model,    name: train_model,    type: transformer,   language: python, upstream_blocks: [prepare_data],  downstream_blocks: [save_results, evaluate_model]}
+- {uuid: train_model,    name: train_model,    type: transformer,   language: python, upstream_blocks: [prepare_data],  downstream_blocks: [save_results, evaluate_model, validate_predictions]}
 - {uuid: save_results,   name: save_results,   type: data_exporter, language: python, upstream_blocks: [train_model],   downstream_blocks: []}
 - {uuid: evaluate_model, name: evaluate_model, type: transformer,   language: python, upstream_blocks: [train_model],   downstream_blocks: []}
+- {uuid: validate_predictions, name: validate_predictions, type: transformer, language: python, upstream_blocks: [train_model], downstream_blocks: []}
