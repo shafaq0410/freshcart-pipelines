@@ -1,0 +1,32 @@
+[
+  {
+    "order_id": "ORD-STREAM-001",
+    "cust_email": "arjun.k@yahoo.in",
+    "cust_name": "Arjun K",
+    "order_date": "2026-09-01",
+    "amount": "10.00",
+    "currency": "USD",
+    "pincode": "560034",
+    "updated_at": "2026-09-01 10:00:00"
+  },
+  {
+    "order_id": "ORD-STREAM-002",
+    "cust_email": "arjun.k@yahoo.in",
+    "cust_name": "Arjun K",
+    "order_date": "2026-09-01",
+    "amount": "20.00",
+    "currency": "USD",
+    "pincode": "560034",
+    "updated_at": "2026-09-01 10:05:00"
+  },
+  {
+    "order_id": "ORD-STREAM-003",
+    "cust_email": "arjun.k@yahoo.in",
+    "cust_name": "Arjun K",
+    "order_date": "2026-09-01",
+    "amount": "15.00",
+    "currency": "USD",
+    "pincode": "560034",
+    "updated_at": "2026-09-01 10:10:00"
+  }
+]
